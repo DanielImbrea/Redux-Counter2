@@ -14,6 +14,18 @@ function App() {
         <button onClick={() => dispatch({ type: "DECREMENT" })}>
           Decrement
         </button>
+        <button onClick={() => dispatch({ type: "DOUBLE-INCREMENT" })}>
+          Double Increment
+        </button>
+        <button onClick={() => dispatch({ type: "DOUBLE-DECREMENT" })}>
+          Double Decrement
+        </button>
+        <button onClick={() => dispatch({ type: "TRIPLE-INCREMENT" })}>
+          Triple Increment
+        </button>
+        <button onClick={() => dispatch({ type: "TRIPLE-DECREMENT" })}>
+          Triple Decrement
+        </button>
       </header>
     </div>
   );
